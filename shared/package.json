@@ -1,0 +1,21 @@
+{
+  "name": "tictactoe-shared",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "strict": true
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.3",
+    "typescript": "^5.9.2"
+  }
+}

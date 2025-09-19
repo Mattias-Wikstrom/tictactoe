@@ -1,0 +1,23 @@
+{
+  "name": "tictactoe",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "console": "npx ts-node console/index.ts"
+  },
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "strict": true
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "concurrently": "^8.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
