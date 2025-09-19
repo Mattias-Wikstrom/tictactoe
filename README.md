@@ -1,4 +1,4 @@
-== Tic-Tac-Toe ==
+## Tic-Tac-Toe 
 
 The console version can be started by running 'npm run console' in the main folder.
 
